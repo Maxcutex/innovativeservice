@@ -1,0 +1,400 @@
+Failed to convert parameter value from a String to a Int32.:    at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters, Boolean includeReturnValue)
+   at System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at MasterPass.Asmx.SecuredTokenWebservice.IsUserCredentialsValid(String UserName, String Password) in C:\Users\ini-obong.udoh\Documents\Visual Studio 2017\Projects\MasterPass\NanoService.Asmx\SecuredTokenWebservice.cs:line 49
+--------------------END OF LOG--------------------20-Mar-2018 03:02:15 PM--------------------
+Failed to convert parameter value from a String to a Int32.:    at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters, Boolean includeReturnValue)
+   at System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at MasterPass.Asmx.SecuredTokenWebservice.IsUserCredentialsValid(String UserName, String Password) in C:\Users\ini-obong.udoh\Documents\Visual Studio 2017\Projects\MasterPass\NanoService.Asmx\SecuredTokenWebservice.cs:line 49
+--------------------END OF LOG--------------------20-Mar-2018 03:05:05 PM--------------------
+2018-Mar-29 18:02:10: Fundstransfer
+Sent:
+Field -1::1200
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::000000010000
+Field 11::JJHmGsln1obw
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 24::200
+Field 32::00000000000
+Field 33::00000000000
+Field 37::JJHmGsln1obw
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 43::From Ini
+Field 46::70NGND000000000000000000000001D0000000000000000NGN
+Field 49::566
+Field 59::1
+Field 93::00000000000
+Field 94::00000000000
+Field 102::5300004922
+Field 103::5300001804
+Field 123::NAN
+Field 124::INO
+
+Received:
+Field -1::1210
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::0000000000010000
+Field 11::JJHmGsln1obw
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 32::00000000000
+Field 33::00000000000
+Field 37::JJHmGsln1obw
+Field 38::UNI000
+Field 39::000
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 46::70NGND000000000000000000000001D0000000000000000NGN
+Field 48::+0000000000897354+0000000000884892+0000000000000000+0000000000000000+0000000000884892NGN              +0000000000487960+0000000000238877+0000000000000000+0000000000000000+0000000000238877NGN              
+Field 49::566
+Field 59::1
+Field 94::00000000000
+Field 123::NAN
+Field 124::INO
+Field 126::|
+Field 127::S56874
+
+
+
+--------------------END OF LOG--------------------29-Mar-2018 06:02:11 PM---------------------------------------------
+2018-Mar-29 18:03:42: Fundstransfer
+Sent:
+Field -1::1200
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::000000010000
+Field 11::LDTn6aAKqdWR
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 24::200
+Field 32::00000000000
+Field 33::00000000000
+Field 37::LDTn6aAKqdWR
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 43::From Ini
+Field 46::70NGND000000000000000000000001D0000000000000000NGN
+Field 49::566
+Field 59::1
+Field 93::00000000000
+Field 94::00000000000
+Field 102::5300004922
+Field 103::5300001804
+Field 123::NAN
+Field 124::INO
+
+Received:
+Field -1::1210
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::0000000000010000
+Field 11::LDTn6aAKqdWR
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 32::00000000000
+Field 33::00000000000
+Field 37::LDTn6aAKqdWR
+Field 38::UNI000
+Field 39::000
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 46::70NGND000000000000000000000001D0000000000000000NGN
+Field 48::+0000000000887354+0000000000874892+0000000000000000+0000000000000000+0000000000874892NGN              +0000000000497960+0000000000248877+0000000000000000+0000000000000000+0000000000248877NGN              
+Field 49::566
+Field 59::1
+Field 94::00000000000
+Field 123::NAN
+Field 124::INO
+Field 126::|
+Field 127::S56875
+
+
+
+--------------------END OF LOG--------------------29-Mar-2018 06:04:34 PM---------------------------------------------
+2018-Mar-29 18:06:48: Fundstransfer
+Sent:
+Field -1::1200
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::000000010000
+Field 11::L35nWstfggop
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 24::200
+Field 32::00000000000
+Field 33::00000000000
+Field 37::L35nWstfggop
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 43::From Ini
+Field 46::70NGND000000000000000000000001D0000000000000000NGN
+Field 49::566
+Field 59::1
+Field 93::00000000000
+Field 94::00000000000
+Field 102::5300004922
+Field 103::5300001804
+Field 123::NAN
+Field 124::INO
+
+Received:
+Field -1::1210
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::0000000000010000
+Field 11::L35nWstfggop
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 32::00000000000
+Field 33::00000000000
+Field 37::L35nWstfggop
+Field 38::UNI000
+Field 39::000
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 46::70NGND000000000000000000000001D0000000000000000NGN
+Field 48::+0000000000877354+0000000000864892+0000000000000000+0000000000000000+0000000000864892NGN              +0000000000507960+0000000000258877+0000000000000000+0000000000000000+0000000000258877NGN              
+Field 49::566
+Field 59::1
+Field 94::00000000000
+Field 123::NAN
+Field 124::INO
+Field 126::|
+Field 127::S56876
+
+
+
+--------------------END OF LOG--------------------29-Mar-2018 06:06:58 PM---------------------------------------------
+2018-Mar-29 18:14:25: Fundstransfer
+Sent:
+Field -1::1200
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::000000010000
+Field 11::5fKwj7mhxlty
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 24::200
+Field 32::00000000000
+Field 33::00000000000
+Field 37::5fKwj7mhxlty
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 43::From Ini
+Field 46::70NGND000000000000000000000001D0000000000000000NGN
+Field 49::566
+Field 59::1
+Field 93::00000000000
+Field 94::00000000000
+Field 102::5300004922
+Field 103::5300001804
+Field 123::NAN
+Field 124::INO
+
+Received:
+Field -1::1210
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::0000000000010000
+Field 11::5fKwj7mhxlty
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 32::00000000000
+Field 33::00000000000
+Field 37::5fKwj7mhxlty
+Field 38::UNI000
+Field 39::000
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 46::70NGND000000000000000000000001D0000000000000000NGN
+Field 48::+0000000000867354+0000000000854892+0000000000000000+0000000000000000+0000000000854892NGN              +0000000000517960+0000000000268877+0000000000000000+0000000000000000+0000000000268877NGN              
+Field 49::566
+Field 59::1
+Field 94::00000000000
+Field 123::NAN
+Field 124::INO
+Field 126::|
+Field 127::S56877
+
+
+
+--------------------END OF LOG--------------------29-Mar-2018 06:14:25 PM---------------------------------------------
+2018-Mar-29 18:19:59: Fundstransfer
+Sent:
+Field -1::1200
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::000000010000
+Field 11::DlWSWnibJ3T7
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 24::200
+Field 32::00000000000
+Field 33::00000000000
+Field 37::DlWSWnibJ3T7
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 43::From Ini
+Field 46::70NGND000000000000000000000001D0000000000000000NGN
+Field 49::566
+Field 59::1
+Field 93::00000000000
+Field 94::00000000000
+Field 102::5300004922
+Field 103::5300001804
+Field 123::NAN
+Field 124::INO
+
+Received:
+Field -1::1210
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::0000000000010000
+Field 11::DlWSWnibJ3T7
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 32::00000000000
+Field 33::00000000000
+Field 37::DlWSWnibJ3T7
+Field 38::UNI000
+Field 39::000
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 46::70NGND000000000000000000000001D0000000000000000NGN
+Field 48::+0000000000857354+0000000000844892+0000000000000000+0000000000000000+0000000000844892NGN              +0000000000527960+0000000000278877+0000000000000000+0000000000000000+0000000000278877NGN              
+Field 49::566
+Field 59::1
+Field 94::00000000000
+Field 123::NAN
+Field 124::INO
+Field 126::|
+Field 127::S56878
+
+
+
+--------------------END OF LOG--------------------29-Mar-2018 06:20:00 PM---------------------------------------------
+There is no row at position 0.:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at MasterPass.Asmx.PostService.ReverseTransaction(String debitAccount, String creditAccount, String narration, String refNo, String tranId, String reference, String terminalCode) in C:\Users\ini-obong.udoh\Documents\Visual Studio 2017\Projects\MasterPass_Innovectives\NanoService.Asmx\PostService.asmx.cs:line 336
+--------------------END OF LOG--------------------29-Mar-2018 06:21:22 PM--------------------
+There is no row at position 0.:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at MasterPass.Asmx.PostService.ReverseTransaction(String debitAccount, String creditAccount, String narration, String refNo, String tranId, String reference, String terminalCode) in C:\Users\ini-obong.udoh\Documents\Visual Studio 2017\Projects\MasterPass_Innovectives\NanoService.Asmx\PostService.asmx.cs:line 336
+--------------------END OF LOG--------------------29-Mar-2018 06:22:30 PM--------------------
+There is no row at position 0.:    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at MasterPass.Asmx.PostService.ReverseTransaction(String debitAccount, String creditAccount, String narration, String refNo, String tranId, String reference, String terminalCode) in C:\Users\ini-obong.udoh\Documents\Visual Studio 2017\Projects\MasterPass_Innovectives\NanoService.Asmx\PostService.asmx.cs:line 336
+--------------------END OF LOG--------------------29-Mar-2018 06:24:47 PM--------------------
+2018-Mar-29 18:25:09: Fundstransfer
+Sent:
+Field -1::1420
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::000000000000
+Field 11::DlWSWnibJ3T7
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 24::400
+Field 30::00000000000000000000000000010000
+Field 32::00000000000
+Field 33::00000000000
+Field 37::DlWSWnibJ3T7
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 43::From Ini
+Field 46::70NGNC000000000000000000000001C0000000000000000NGN
+Field 49::566
+Field 56::1200DlWSWnibJ3T7201802090000001100000000000
+Field 59::1
+Field 66::70NGNC000000000000000000000001C0000000000000000NGN
+Field 102::5300004922
+Field 103::5300001804
+Field 123::NAN
+Field 124::INO
+
+Received:
+Field -1::1430
+Field 2::9990190000000000000
+Field 3::401200
+Field 4::0000000000000000
+Field 11::DlWSWnibJ3T7
+Field 12::20180209000000
+Field 15::20180209
+Field 17::20180209
+Field 32::00000000000
+Field 33::00000000000
+Field 37::DlWSWnibJ3T7
+Field 38::UNI000
+Field 39::000
+Field 41::000000003INO9991
+Field 42::WSDEEEEPEPEPEPE
+Field 46::70NGNC000000000000000000000001C0000000000000000NGN
+Field 48::+0000000000867354+0000000000854892+0000000000000000+0000000000000000+0000000000854892NGN              +0000000000517960+0000000000268877+0000000000000000+0000000000000000+0000000000268877NGN              
+Field 49::566
+Field 59::1
+Field 123::NAN
+Field 124::INO
+Field 126::|
+Field 127::S56879
+
+
+--------------------END OF LOG--------------------29-Mar-2018 06:25:09 PM---------------------------------------------
+ORA-12154: TNS:could not resolve the connect identifier specified:    at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at NanoService.Asmx.DataAccess.DataAccessLayer.getData(OracleConnection connection, String query, OracleDataAdapter da, DataSet ds) in C:\Users\ini-obong.udoh\Documents\Visual Studio 2019\Projects\MasterPass_Innovectives\NanoService.Asmx\DataAccess\DataAccessLayer.cs:line 134
+   at NanoService.Asmx.DataAccess.DataAccessLayer.GetCustomerDetails(String CustomerId) in C:\Users\ini-obong.udoh\Documents\Visual Studio 2019\Projects\MasterPass_Innovectives\NanoService.Asmx\DataAccess\DataAccessLayer.cs:line 64
+--------------------END OF LOG--------------------10-Jan-2020 09:17:21 AM--------------------
+ORA-12154: TNS:could not resolve the connect identifier specified:    at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at NanoService.Asmx.DataAccess.DataAccessLayer.getData(OracleConnection connection, String query, OracleDataAdapter da, DataSet ds) in C:\Users\ini-obong.udoh\Documents\Visual Studio 2019\Projects\MasterPass_Innovectives\NanoService.Asmx\DataAccess\DataAccessLayer.cs:line 134
+   at NanoService.Asmx.DataAccess.DataAccessLayer.GetCustomerDetails(String CustomerId) in C:\Users\ini-obong.udoh\Documents\Visual Studio 2019\Projects\MasterPass_Innovectives\NanoService.Asmx\DataAccess\DataAccessLayer.cs:line 64
+--------------------END OF LOG--------------------10-Jan-2020 09:20:17 AM--------------------
+ORA-12154: TNS:could not resolve the connect identifier specified:    at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at NanoService.Asmx.DataAccess.DataAccessLayer.getData(OracleConnection connection, String query, OracleDataAdapter da, DataSet ds) in C:\Users\ini-obong.udoh\Documents\Visual Studio 2019\Projects\MasterPass_Innovectives\NanoService.Asmx\DataAccess\DataAccessLayer.cs:line 134
+   at NanoService.Asmx.DataAccess.DataAccessLayer.GetCustomerDetails(String CustomerId) in C:\Users\ini-obong.udoh\Documents\Visual Studio 2019\Projects\MasterPass_Innovectives\NanoService.Asmx\DataAccess\DataAccessLayer.cs:line 64
+--------------------END OF LOG--------------------10-Jan-2020 09:21:06 AM--------------------
