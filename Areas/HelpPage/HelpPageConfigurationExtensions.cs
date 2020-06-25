@@ -13,6 +13,7 @@ using System.Web.Http.Controllers;
 using System.Web.Http.Description;
 using InnovativeService.Areas.HelpPage.ModelDescriptions;
 using InnovativeService.Areas.HelpPage.Models;
+using InnovativeService.Areas.HelpPage.SampleGeneration;
 
 namespace InnovativeService.Areas.HelpPage
 {

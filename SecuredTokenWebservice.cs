@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
 using System.Web;
 using Bola.MiscHelper;
-using MasterPass.Asmx.Helpers;
+using InnovativeService.Helpers;
 
-namespace MasterPass.Asmx
+namespace InnovativeService
 {
     public class SecuredTokenWebservice : System.Web.Services.Protocols.SoapHeader
     {

@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 
-namespace MasterPass.Asmx
+namespace InnovativeService
 {
     public class AuthUser : System.Web.Services.Protocols.SoapHeader
     {

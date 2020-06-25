@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Web;
 
-namespace MasterPass.Asmx.Helpers
+namespace InnovativeService.Helpers
 {
     public class GenericFunctions
     {

@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 using Bola.MiscHelper;
 using Oracle.ManagedDataAccess.Client;
-using MasterPass.Asmx;
 
-namespace NanoService.Asmx.DataAccess
+namespace InnovativeService.DataAccess
 {
     public   class DataAccessLayer
     {

@@ -1,21 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 using System.Web;
 using System.Web.Services;
 using Bola.MiscHelper;
+using InnovativeService.DataAccess;
+using InnovativeService.Helpers;
+using InnovativeService.Models;
 using ISO8583Connect;
-using NanoService.Asmx.DataAccess;
-using NanoService.Asmx.Models;
-using MasterPass.Asmx.DataAccess;
-using MasterPass.Asmx.Models;
-using MasterPass.Asmx.Helpers;
 using QRCoder;
-using System.IO;
-using System.Drawing;
-using System.Drawing.Imaging;
 
-namespace MasterPass.Asmx
+namespace InnovativeService
 {
     /// <summary>
     /// Summary description for PostService
